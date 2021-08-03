@@ -1,0 +1,44 @@
+/* .modal-body {
+    position: relative;
+    padding: 15px;
+} */
+.split-item {
+    padding: 15px;
+    border: 2px solid #ddd;
+}
+.split-item.split-selected {
+    border: 2px solid #1bb540;
+    outline: none;
+    
+}
+/* #splitSuborder{
+    border: 2px solid #1bb540;
+    outline: none;
+
+} */
+.info_part {
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+.table-info {
+    background: #f1f1f1 !important;
+    border: solid 1px #dcdbd9;
+    border-spacing: 0;
+}
+
+.btn-clear {
+    min-width: 75px;
+    background: #37a000;
+    color: #fff;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.submit_area {
+    margin-top: 15px;
+    text-align: right;
+}
+.font-14 {
+    font-size: 14px!important;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>VOLSBB Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/split.css">
+</head>
+
+<body>
+    <div class="col-md-12 row" id="show-sub-order">
+        <div class="col-md-6">
+            <div class="info_part split-item" onclick="selectelement(this)" data-value="1334">
+             
+                <table class="table table-bordered  table-info text-center" id="table-tbody-11781-1334">
+                    <thead>
+                        <tr>
+                            <th>Item </th>
+                            <th>Variant Name</th>
+                            <th>Unit price </th>
+                            <th>Qty </th>
+                            <th class="text-center">Total price </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <input type="hidden" id="service-1334" value="0">
+                </table>
+                <div class=" d-flex justify-content-between mb-2">
+                    <label for="customer" class=" me-3 customer-label">Customer</label>
+                    <select name="customer_name[]" class="form-control " id="customer-1335" required="">
+                        <option value="">Select Customer</option>
+                        <option value="1" selected="selected">Walkin</option>
+                    </select>
+                </div>
+                <div class="submit_area">
+                    <button class=" btn btn-clear " id="subpay-1334" onclick="paySuborder(this)"
+                        data-url="https://restaurant.bdtask.com/demo/ordermanage/order/paysuborder">Pay Now &amp; Print
+                        Invoice</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
